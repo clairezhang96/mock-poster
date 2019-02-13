@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Coda:800');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+	background-color: white;
+	color: grey;
+	font-family: 'Roboto+Mono', 'Oxygen', sans-serif,
+	'VT323',monospace, 'Coda:800,', cursive;/*same as use font: normal 16px....*/
+	font-size: 16px;
+	font-weight:normal;/* bold/normal...*/
+	line-height:1.6em
+	margin:0;
+	padding: 20px 30px;
+	position: relative; 
+}
+
+
+.container{
+	width: 80%;
+	margin:auto;
+	}
+
+		
+	.box-1 h2{
+		font-family:Oxygen;
+		font-size: 25px;
+		font-weight:bold;
+		color:#3A548A;
+		}
+
+	.box-1 h1{
+		font-family:Coda;
+		font-size: 60px;
+		color: tomato;
+		}/*box-2*/
+
+	.button{
+		border: none;
+		color: white;
+		display: inline-block;
+		text-align: center;
+   		text-decoration: none;
+    	font-size: 16px;
+    	margin: 5px 5px;
+		background-color: tomato;
+		position: fixed;
+		right:20px;
+		padding: 15px 30px;
+	}
+	.box-2 h4{
+		font-family:Oxgyen;
+		color:lightsteelblue;
+		font-size: 20px;}
+
+
+
+.container-2{
+		
+	}
+.container-2 p:hover{
+	background-color: #74a3ff; 
+}
+.container-2 h3{
+		font-family:Roboto Mono;
+		color:#3A548A;} 
+
+.container-2 h4{
+		font-family:Roboto Mono;
+		color:tomato;}  
+
+	.date-1{
+    	width: 700px;
+    	height: 500px;
+		border: 3px solid;
+    	padding: 40px;
+    	box-sizing: border-box;
+    	box-shadow: 15px 20px tomato;
+	}
+		.date-1 img{
+		margin-left:80px;
+		margin-bottom:20px;
+		}
+
+	.date-2{
+		border: 2px solid;
+    	padding: 40px;
+    	box-shadow: 15px 20px lightsteelblue;
+    	box-sizing: border-box;
+    	width: 800px;
+    	height: 500px;
+    	margin-left: 120px;
+    	
+	}
+		.date-2 img{
+			margin-left:100px;
+			margin-bottom:20px;
+		}
+
+	.date-3{
+		border: 3px solid;
+    	padding: 40px;
+    	box-shadow: 15px 20px tomato;
+    	box-sizing: border-box;
+    	width: 800px;
+    	height: 500px;
+    	margin-left: 200px;
+	}
+		.date-3 img{
+			margin-left:30px;
+			margin-bottom:20px;}
+
+	.date-4{
+    	border: 3px solid;
+    	padding: 40px;
+    	box-shadow: 15px 20px lightsteelblue;
+    	box-sizing: border-box;
+    	width: 700px;
+    	height: 500px;
+    	margin-left: 120px;
+
+	}
+		.date-4 img{
+			margin-left:50px;
+			margin-bottom:20px;}
+
+	.date-5{
+		 border: 3px solid;
+    	padding: 40px;
+    	box-shadow: 15px 20px tomato;
+    	box-sizing: border-box;
+    	width: 800px;
+    	height: 500px;
+    	margin-left: 20px;
+    }
+    	.date-5 img{
+    		margin-left: 20px;
+    		margin-bottom: 20px;
+    	}
+	.date-6{
+		box-sizing: border-box;
+    	width: 700px;
+    	height: 450px;
+		border: 3px solid;
+    	padding: 40px;
+    	box-shadow: 15px 20px lightsteelblue;
+    	margin-left: 250px;
+    	}
+		
+		.date-6 img{
+			margin-left:200px;}
+
